@@ -1,0 +1,8 @@
+.primary-blue-button {
+    border-radius: 5px;
+    background-color: #0049FC;
+    color: #fff;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+}

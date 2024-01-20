@@ -1,0 +1,43 @@
+.sidebar {
+    width: 200px;
+    background-color: #ffff;
+    height: 100vh;
+    box-shadow: 1px 1px 15px rgb(240, 240, 240);
+    border-right: 1px solid rgb(233, 233, 233);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+
+.sidebar .logo {
+    width: 130px;
+}
+
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-items .menu-item {
+    display: flex;
+    align-items: center;
+    color: #1c1c1ec4;
+    gap: 5px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.menu-items .menu-item-active {
+    background-color: #0049FC;
+    color: white;
+}

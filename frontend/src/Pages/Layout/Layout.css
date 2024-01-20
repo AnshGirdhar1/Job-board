@@ -1,0 +1,9 @@
+.layout {
+    width: 100%;
+    background-color: #f7f3f3;
+    display: flex;
+}
+
+.layout .module-with-topbar {
+    width: 100%;
+}

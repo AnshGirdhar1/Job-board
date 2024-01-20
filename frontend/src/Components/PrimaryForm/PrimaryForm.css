@@ -1,0 +1,38 @@
+.primary-form {
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 1px 1px 15px rgb(234, 234, 234);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.primary-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.primary-form form h2 {
+    text-align: center;
+}
+
+.primary-form .form-fields {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+}
+
+.primary-form .form-fields input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.primary-form .form-fields .field-error-display {
+    color: #dc0202;
+    font-size: 13px;
+    display: inline-block;
+    padding-top: 10px;
+}
