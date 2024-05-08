@@ -9,8 +9,22 @@
     display: flex;
     padding-top: 60px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .banner-content img {
     width: 500px;
+}
+
+@media only screen and (max-width: 850px) {
+    
+    .banner-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner-content img {
+        width: 300px;
+    }
+    
 }

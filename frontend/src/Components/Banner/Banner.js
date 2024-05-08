@@ -6,17 +6,19 @@ import Container from '../Container/Container';
 import Login from '../Login/Login';
 import Signup from '../Signup/Signup';
 import { useState } from 'react';
+import { useMediaQuery } from '@mui/material';
 const Banner = () => {
   const [isformTypeLogin, setIsFormTypeLogin] = useState(true);
+  const isMediumScreen = useMediaQuery('(max-width:1070px');
   return (
     <div className='banner'>
-      <Container>
+      <Container padding={isMediumScreen ? '0 30px' : '0 150px'}>
         <Navbar setIsFormTypeLogin={setIsFormTypeLogin} />
         <div
           className='banner-content'
-          style={{
-            flexDirection: isformTypeLogin ? 'row' : 'row-reverse',
-          }}
+          // style={{
+          //   flexDirection: isformTypeLogin ? 'row' : 'row-reverse',
+          // }}
         >
           <div className='hero-image'>
             <img

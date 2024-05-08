@@ -1,0 +1,16 @@
+.recruiter-and-location {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+    text-overflow: ellipsis;
+    white-space: no-wrap;
+    overflow: hidden;    
+}
+
+.recruiter,
+.location {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    color: rgb(120, 120, 120);
+}
